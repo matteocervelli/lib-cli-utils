@@ -1,0 +1,9 @@
+[project]
+name = "lib-cli-utils"
+version = "0.1.0"
+description = "A utility library for CLI operations"
+requires-python = ">=3.13"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

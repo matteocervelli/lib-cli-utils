@@ -1,0 +1,13 @@
+{
+  "name": "cli-utils",
+  "version": "0.1.0",
+  "description": "Terminal color styling utilities",
+  "main": "colorstr.js",
+  "types": "colorstr.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
