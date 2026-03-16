@@ -1,8 +1,16 @@
 [project]
-name = "lib-cli-utils"
+name = "adlimen-cli"
 version = "0.1.0"
-description = "A utility library for CLI operations"
-requires-python = ">=3.13"
+description = "Multi-language terminal color styling utilities (Python, Shell, TypeScript)"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
 
 [build-system]
 requires = ["hatchling"]
@@ -13,3 +21,18 @@ packages = ["src/cli_utils"]
 
 [tool.hatch.build.targets.wheel.sources]
 "src" = ""
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=cli_utils --cov-report=term-missing"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
