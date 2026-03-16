@@ -2,18 +2,26 @@
 
 ## Planned
 
-- [ ] `strip_ansi()` — remove ANSI codes from a string (Python + TS + Shell)
-- [ ] Single-pass ANSI builder to fix chaining reset-code collision
-- [ ] `ColorStr.from_hex(color)` — 24-bit true-color support
-- [ ] CI: GitHub Actions workflow (lint + test + type-check on push/PR)
-- [ ] Shell: `color_strip()` function
+### v0.1.1
 
-## In Progress
+- [ ] CI: GitHub Actions workflow (lint + test + type-check on push/PR) — [#2](https://github.com/matteocervelli/lib-cli-utils/issues/2)
 
-- [ ] Test suite (Python pytest + TypeScript Jest)
-- [ ] Tooling config (ruff, mypy, pytest)
+### v0.2.0
+
+- [ ] `strip_ansi()` — remove ANSI codes from a string (Python + TS + Shell) — [#3](https://github.com/matteocervelli/lib-cli-utils/issues/3)
+- [ ] `ColorStr.from_hex(color)` — 24-bit true-color support — [#4](https://github.com/matteocervelli/lib-cli-utils/issues/4)
+- [ ] Single-pass ANSI builder to fix chaining reset-code collision — [#7](https://github.com/matteocervelli/lib-cli-utils/issues/7)
+- [ ] Shell: `color_strip()` function — [#8](https://github.com/matteocervelli/lib-cli-utils/issues/8)
 
 ## Released
+
+### v0.1.1 — upcoming
+
+- pytest test suite for Python `ColorStr` (20 tests, 100% coverage)
+- Jest test suite for TypeScript `ColorStr` (18 tests)
+- Tooling config: ruff, mypy strict, pytest-cov in `pyproject.toml`; tsconfig.json
+- Docs: `CLAUDE.md`, `CHANGELOG.md`, `ROADMAP.md`, `TECH-STACK.md`
+- Fixes: package name, requires-python >=3.11, LICENSE year
 
 ### v0.1.0 — 2025-11-24
 
