@@ -4,12 +4,12 @@
 
 ### v0.1.1
 
-- [ ] CI: GitHub Actions workflow (lint + test + type-check on push/PR) — [#2](https://github.com/matteocervelli/lib-cli-utils/issues/2)
+- [ ] CI: GitHub Actions workflow (lint + test + type-check on push/PR) — [#4](https://github.com/matteocervelli/lib-cli-utils/issues/4)
 
 ### v0.2.0
 
-- [ ] `strip_ansi()` — remove ANSI codes from a string (Python + TS + Shell) — [#3](https://github.com/matteocervelli/lib-cli-utils/issues/3)
-- [ ] `ColorStr.from_hex(color)` — 24-bit true-color support — [#4](https://github.com/matteocervelli/lib-cli-utils/issues/4)
+- [ ] `strip_ansi()` — remove ANSI codes from a string (Python + TS + Shell) — [#2](https://github.com/matteocervelli/lib-cli-utils/issues/2)
+- [ ] `ColorStr.from_hex(color)` — 24-bit true-color support — [#3](https://github.com/matteocervelli/lib-cli-utils/issues/3)
 - [ ] Single-pass ANSI builder to fix chaining reset-code collision — [#7](https://github.com/matteocervelli/lib-cli-utils/issues/7)
 - [ ] Shell: `color_strip()` function — [#8](https://github.com/matteocervelli/lib-cli-utils/issues/8)
 

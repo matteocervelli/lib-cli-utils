@@ -1,4 +1,4 @@
-# lib-cli-utils
+# adlimen-cli
 
 Terminal color styling utilities with chainable methods.
 
@@ -7,19 +7,19 @@ Terminal color styling utilities with chainable methods.
 ### Python
 
 ```bash
-pip install -e /path/to/lib-cli-utils
+pip install -e /path/to/adlimen-cli
 ```
 
 ### Shell
 
 ```bash
-source /path/to/lib-cli-utils/src/shell/colorstr.sh
+source /path/to/adlimen-cli/src/shell/colorstr.sh
 ```
 
 ### TypeScript/JavaScript
 
 ```bash
-npm install /path/to/lib-cli-utils/src/typescript
+npm install /path/to/adlimen-cli/src/typescript
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ echo -e "$(color_bold "$(color_yellow "Warning")")"
 ### TypeScript/JavaScript
 
 ```typescript
-import { ColorStr } from 'cli-utils';
+import { ColorStr } from "adlimen-cli";
 
 console.log(new ColorStr("Error").red().bold().toString());
 console.log(new ColorStr("Success").green().toString());
