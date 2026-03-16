@@ -1,0 +1,29 @@
+meta:
+  project: adlimen-cli
+  mode: internal
+  last_audit: 2026-03-16
+
+docs:
+  getting-started:
+    file: docs/user-guide/getting-started.md
+    type: getting-started
+    feature: onboarding
+    last_updated: 2026-03-16
+    status: published
+    linked_version: "0.1.0"
+
+  api-reference:
+    file: docs/user-guide/api-reference.md
+    type: api-reference
+    feature: colorstr
+    last_updated: 2026-03-16
+    status: published
+    linked_version: "0.1.0"
+
+  chaining-limitation:
+    file: docs/user-guide/guides/chaining-limitation.md
+    type: how-to
+    feature: colorstr
+    last_updated: 2026-03-16
+    status: published
+    linked_version: "0.1.0"

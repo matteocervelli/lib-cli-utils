@@ -13,6 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Jest test suite for TypeScript `ColorStr`
 - `[tool.ruff]`, `[tool.mypy]`, `[tool.pytest]` config in `pyproject.toml`
 - `CLAUDE.md`, `CHANGELOG.md`, `ROADMAP.md`, `TECH-STACK.md`
+- User-guide docs: `getting-started`, `api-reference`, `chaining-limitation` guide with `docs/docs-registry.yaml`
+
+### Changed
+
+- ROADMAP: linked issues to GitHub, moved completed items to Released
+- NOTICE file added with copyright information
 
 ## [0.1.0] - 2025-11-24
 
